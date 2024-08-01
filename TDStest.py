@@ -2,6 +2,8 @@ import math
 import time
 from grove.adc import ADC
 
+#TODO: Calibration
+
 class GroveTDS:
 
     def __init__(self, channel):

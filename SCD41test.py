@@ -3,6 +3,8 @@ import board
 import busio
 from adafruit_scd4x import SCD4X
 
+#TODO: calibration
+
 def main():
     # Initialize I2C bus
     i2c = busio.I2C(board.SCL, board.SDA)
